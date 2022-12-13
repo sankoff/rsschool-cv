@@ -1,3 +1,6 @@
+![Avatar](c:\RSSchool\rsschool-cv\img\avatar.jpg "Alexander Grischenko
+"
+
 # Alexander Grischenko
 
 ********* 
