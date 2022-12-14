@@ -1,0 +1,71 @@
+.container {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .img {
+    border-radius: 15px;
+  }
+
+  .ul-block {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .ul {
+    text-align: start;
+  }
+
+.education {
+    margin-bottom: 40px;
+}
+
+.example-code {
+    margin-bottom: 40px;
+}
+
+.collapsible {
+    background-color: rgb(139, 139, 139);
+    color: white;
+    cursor: pointer;
+    padding: 7px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(73, 73, 73);
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    align-items: start;
+    width: 600px;
+    text-align: left;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding: 5px;
+  }   
+
+.project {
+   margin-bottom: 10px;
+}
+
+.git_link {
+    margin-bottom: 10px;
+}
