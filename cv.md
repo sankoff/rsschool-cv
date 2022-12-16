@@ -1,4 +1,4 @@
-![Avatar](/img/avatar.jpg "Alexander Grischenko")
+![Avatar](img/avatar.jpg "Alexander Grischenko")
 
 # Alexander Grischenko
 
