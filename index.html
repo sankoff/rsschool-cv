@@ -12,25 +12,32 @@
 
 <body>
     <div class="container">
+        <nav class="links">
+            <a href="#description">Description</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#education">Education</a>
+            <a href="#project">Projects</a>
+        </nav>
+        <h1>Alexander Grischenko</h1>
         <header>
             <img class="img" src="img/avatar.jpg" alt="Avatar">
         </header>
         <main>
             <div class="about">
-                <h1>Alexander Grischenko</h1>
+                
 
-               <p class="description">
+               <p class="description" id="description">
                 I am a beginner frontend developer. Studied java. Easily learn new software. I'm trying to get the job
                 done. I make wood products.</p>
             
-                <nav class="ul-block">
-                    <ul class="ul contacts">
+                <div class="ul-block">
+                    <ul class="ul contacts" id="contacts">
                         <li>Discord: Alexander Grischenko (@sankoff)</li>
                         <li><a href="https://www.instagram.com/sankoff84/">Instagram</a></li>
                         <li><a href="http://woodcrafter.great-site.net/">My first site</a></li>
                         <li>Phone: +375295312065</li>
                     </ul>
-                </nav>
+                </div>
             </div>
 
         <div class="hob_skill">
@@ -54,7 +61,7 @@
             </div>
         </div>
 
-            <div class="education"><p>I do not have work experience.<br>
+            <div class="education" id="education"><p>I do not have work experience.<br>
                 Higher technical education.<br>
                 English: А2 (Elementary)</p>
             </div>
@@ -126,7 +133,7 @@
                     <pre>
                         <code>
 const board = document.querySelector('#board')
-const colors = ["#e73c3c", "#8e34ad", "#3898db", "#e67e12", "#2eca71", "#3081e3", "#ee817e", "#c678dd", "#5db0d7"]
+const colors = ["#e73c3c", "#8e34ad", "#3898db", "#e67e12", "#2eca71", "#3081e3",<br> "#ee817e", "#c678dd", "#5db0d7"]
 const SQUARES_NUMBER = 2000
                             
 for (let i = 0; i &lt; SQUARES_NUMBER; i++) {
@@ -159,14 +166,14 @@ function getRandomColor() {
 </pre>
                 </div>
            </div>
-           <div class="project">
+           <div class="project" id="project">
             <a href="https://github.com/sankoff?tab=repositories">Projects on GitHUB</a>
         </div>
         </main>
-        <footer>
+        <footer class="footer">
             <div class="git_link"><a href="https://github.com/sankoff">GitHUB</a>
                 2022</div>
-            <div><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="logo_rsschool" width="320"></a></div>
+            <div><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="logo_rsschool" width="120"></a></div>
         </footer>
     </div>
     <script>

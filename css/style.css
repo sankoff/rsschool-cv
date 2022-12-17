@@ -2,23 +2,42 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
-  display: inline-block;
+  font-size: 64px;
+  display: block;
+  margin-top: 0;
   margin-bottom: 40px;
   border-bottom: 1px solid #000;
+  text-align: center;
 }
 
 header {
   display: inline;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
+  font-size: 17px;
   max-width: 800px;
-  ?text-align: center;
   margin: 0 auto;
   padding: 20px;
   background: rgb(8, 0, 145);
   background: linear-gradient(0deg, rgba(199, 197, 222, 1) 0%, rgba(214, 214, 241, 1) 27%, rgba(210, 247, 255, 1) 100%);
+}
+
+.links {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .img {
@@ -45,6 +64,7 @@ header {
 .ul {
   text-align: start;
   margin-right: 30px;
+  margin-bottom: 50px;
 }
 
 .education {
@@ -52,7 +72,7 @@ header {
 }
 
 .example-code {
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 
 .collapsible {
@@ -85,7 +105,7 @@ header {
 }
 
 .content {
-  width: 888px;
+  width: 788px;
   text-align: left;
   max-height: 0;
   overflow: hidden;
@@ -94,9 +114,18 @@ header {
 }
 
 .project {
-  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #000;
 }
 
 .git_link {
   margin-bottom: 10px;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
 }
